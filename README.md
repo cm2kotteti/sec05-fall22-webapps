@@ -1,2 +1,2 @@
 # sec05-fall22-webapps
-This is repo for demo apps.
+We are learning a Git tutorial in Week 2.
