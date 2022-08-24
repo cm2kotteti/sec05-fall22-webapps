@@ -78,3 +78,7 @@ This is a truth table
 - [ ] item 1
 - [ ] item 2 
 - [x] item 3 (this is done)
+
+~~Opps, didn’t mean to do this.~~
+
+The function is $f(x) = x^2$.
