@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Felxbox</title>
+    <style>
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            background-color: red;
+        }
+
+        .flex-container > div {
+            background-color: #f1f1f1;
+            margin: 10px;
+            padding: 20px;
+            font-size: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="flex-container">
+        <div>row item 1 with box sized to fit</div>
+        <div>row item 2</div>
+        <div>row item 3</div>
+    </div>
+
+    <p> We have a parent element with class flex-container holding
+        children items. Div is used to break up an HTML document into divisions, but is a common target to hold other
+        things that can be styled with CSS. In this case we have 3 items in our container. As the width is decreased a
+        point will be reached where the 3 items are stacked vertically instead of horizontally. FlexBox is primarily
+        used to linearly lay out items. </p>
+
+    <p>Direct child elements(s) of the flexible container automatically becomes flexible items.</p>
+</body>
+
+</html>
