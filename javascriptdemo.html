@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Demo</title>
+</head>
+
+<body>
+    <h2>Time & Data</h2>
+    <button type="button" onclick="dateClick()">
+        Click me to display Date and Time.
+    </button>
+    <p id="demo">This text will be replaced </p>
+    <hr>
+    <button type="button" onclick="changeSrc()">Click me to change image.</button>
+    <p id="demo1">We have an image
+        <img id="dog-image" width="100" height="100" alt="Picture of a dog" src="/image.jpeg">
+    </p>
+    <hr>
+    <form>
+        <label for="form1_age">Age: </label>
+        <input type="number" id="form1_age" name="form1_age"> <br>
+        <label for="form1_color">Color: </label>
+        <input type="text" id="form1_color" name="form1_color">
+    </form>
+    <hr>
+    <form>
+        <label for="form2_size" Size: </label>
+            <select type="text" id="form2_size" name="form2_size">
+                <option value="sm">Small</option>
+                <option value="md">Medium</option>
+                <option value="lg">Large</option>
+            </select>
+            <button type="button" onclick="form2Handler()">Go</button>
+    </form>
+    <hr>
+    <form>
+        <input type="radio" id="rg1_red" name="color" value="red" checked>
+        <label for="rg1_red">Red</label></br>
+
+        <input type="radio" id="rg1_blue" name="color" value="blue">
+        <label for="rg1_blue">Blue</label></br>
+
+        <input type="radio" id="rg1_green" name="color" value="green">
+        <label for="rg1_green">Green</label></br>
+    </form>
+    <hr>
+    <form>
+        <input type="checkbox" id="cb1_cheese" name="topping1" value="cheese" checked>
+        <label for="cb1_cheese">I want cheese</label></br>
+
+        <input type="checkbox" id="cb1_olive" name="topping2" value="olive">
+        <label for="cb1_olive">I want olives</label></br>
+
+        <input type="checkbox" id="cb1_onion" name="topping3" value="onion" checked>
+        <label for="cb1_onion">I want onions</label></br>
+    </form>
+    <hr>
+    <p id="target">This text will turn red in 3 seconds.</p>
+    <hr>
+    <p id="promise_id">This will await for a promise return</p>
+    <hr>
+    <button type="button" onclick="showOfficeHours()">Click here</button>
+    <p id="office_hours">AJAX: Office hours</p>
+    <hr>
+    <div id="office_hours_axios"></div>
+    <button type="button" onclick="showOfficeHoursViaAXIOS()">Click here</button> to see the office hours of Dr. Chandra
+    vis AXIOS
+    <hr>
+    <div id="office_hours_fetch"></div>
+    <button type="button" onclick="showOfficeHoursViaFetch()">Click here</button> to see the office hours of Dr. Chandra
+    via Fetch
+    <hr>
+    <script src="/jsdemo.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+</body>
+
+</html>
